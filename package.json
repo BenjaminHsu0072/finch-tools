@@ -1,0 +1,19 @@
+{
+  "name": "finch-tools",
+  "version": "0.1.0",
+  "description": " May be some useful tools for finch (tsfinch) .",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [],
+  "author": "BenjaminHsu",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminHsu0072/finch-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BenjaminHsu0072/finch-tools/issues"
+  },
+  "homepage": "https://github.com/BenjaminHsu0072/finch-tools#readme"
+}
