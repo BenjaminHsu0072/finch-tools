@@ -1,6 +1,6 @@
 {
   "name": "finch-tools",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": " May be some useful tools for finch (tsfinch) .",
   "license": "MIT",
   "main": "index.js",
