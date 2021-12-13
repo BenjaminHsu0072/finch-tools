@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.getRandomString = void 0;
 /***
  * Get a random string and return it;
  * @param len the length of the string;string的长度

@@ -1,7 +1,7 @@
 import {fixIntegerLength} from "./fixIntegerLength";
 
 /**
- *
+ *@returns {string} Readable time info
  */
 function getReadableDate():string {
     let t = new Date(Date.now());
@@ -12,7 +12,7 @@ function getReadableDate():string {
     let n = fixIntegerLength(t.getMinutes(),2);
     let s = fixIntegerLength(t.getSeconds(),2);
     let ms = fixIntegerLength(t.getSeconds(),3);
-    return y+"_"+m+"_"+d+"_"+h+"_"+n+"_"+s+"_"+ms;
+    return y+"."+m+"."+d+"_"+h+":"+n+":"+s+"::"+ms;
 }
 
 export {getReadableDate}

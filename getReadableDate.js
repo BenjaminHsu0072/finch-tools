@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.getReadableDate = void 0;
 const fixIntegerLength_1 = require("./fixIntegerLength");
 /**
- *
+ *@returns {string} Readable time info
  */
 function getReadableDate() {
     let t = new Date(Date.now());
@@ -13,6 +14,6 @@ function getReadableDate() {
     let n = fixIntegerLength_1.fixIntegerLength(t.getMinutes(), 2);
     let s = fixIntegerLength_1.fixIntegerLength(t.getSeconds(), 2);
     let ms = fixIntegerLength_1.fixIntegerLength(t.getSeconds(), 3);
-    return y + "_" + m + "_" + d + "_" + h + "_" + n + "_" + s + "_" + ms;
+    return y + "." + m + "." + d + "_" + h + ":" + n + ":" + s + "::" + ms;
 }
 exports.getReadableDate = getReadableDate;
