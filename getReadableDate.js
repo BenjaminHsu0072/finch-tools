@@ -14,6 +14,6 @@ function getReadableDate() {
     let n = fixIntegerLength_1.fixIntegerLength(t.getMinutes(), 2);
     let s = fixIntegerLength_1.fixIntegerLength(t.getSeconds(), 2);
     let ms = fixIntegerLength_1.fixIntegerLength(t.getSeconds(), 3);
-    return y + "." + m + "." + d + "_" + h + ":" + n + ":" + s + "::" + ms;
+    return y + "_" + m + "_" + d + "_" + h + ":" + n + ":" + s + "::" + ms;
 }
 exports.getReadableDate = getReadableDate;

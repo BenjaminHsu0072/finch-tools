@@ -12,7 +12,7 @@ function getReadableDate():string {
     let n = fixIntegerLength(t.getMinutes(),2);
     let s = fixIntegerLength(t.getSeconds(),2);
     let ms = fixIntegerLength(t.getSeconds(),3);
-    return y+"."+m+"."+d+"_"+h+":"+n+":"+s+"::"+ms;
+    return y+"_"+m+"_"+d+"_"+h+":"+n+":"+s+"::"+ms;
 }
 
 export {getReadableDate}
