@@ -1,7 +1,8 @@
 # finch-tools
- May be some useful tools for finch.
+一些有用的工具
+May be some useful tools for finch.
  
-* fixIntegerLength 
+* fixIntegerLength : 正整数补位
 
 ```typescript
 import  {fixIntegerLength} from 'finch-tools';
@@ -9,7 +10,7 @@ fixIntegerLength(123,5);
 //"00123"
 ```
 
-* getRandomString
+* getRandomString ： 随机字符串
 
 ```typescript
 import  {getRandomString} from 'finch-tools';
@@ -19,7 +20,7 @@ getRandomString();
 //"YUIJhgftYuHGVbnmGFtRfVNKHKklloYv"
 ```
 
-* getReadableDate
+* getReadableDate ： 可读时间戳
 
 ```typescript
 import  {getReadableDate} from 'finch-tools';

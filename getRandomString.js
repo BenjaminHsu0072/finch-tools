@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getRandomString = void 0;
 /***
- * Get a random string and return it;
- * @param len the length of the string;string的长度
+ * 获取一个随机字符串，默认32位；
+ * @param len 字符串的长度
  * @returns {string}
  */
 function getRandomString(len = 32) {
@@ -11,7 +11,7 @@ function getRandomString(len = 32) {
     let chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
     let maxPos = chars.length;
     let n = '';
-    for (var i = 0; i < len; i++) {
+    for (let i = 0; i < len; i++) {
         n += chars.charAt(Math.floor(Math.random() * maxPos));
     }
     return n;

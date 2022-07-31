@@ -1,7 +1,8 @@
 import {fixIntegerLength} from "./fixIntegerLength";
 
 /**
- *@returns {string} Readable time info
+ * 获取可读的时间戳字符串，精确到毫秒；
+ *@returns {string}
  */
 function getReadableDate():string {
     let t = new Date(Date.now());
